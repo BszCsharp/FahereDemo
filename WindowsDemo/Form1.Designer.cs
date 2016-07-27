@@ -71,12 +71,13 @@
             // 
             // buttonFaehreErzeugen
             // 
+            this.buttonFaehreErzeugen.BackColor = System.Drawing.Color.Red;
             this.buttonFaehreErzeugen.Location = new System.Drawing.Point(22, 172);
             this.buttonFaehreErzeugen.Name = "buttonFaehreErzeugen";
             this.buttonFaehreErzeugen.Size = new System.Drawing.Size(192, 24);
             this.buttonFaehreErzeugen.TabIndex = 6;
             this.buttonFaehreErzeugen.Text = "Fähre erzeugen";
-            this.buttonFaehreErzeugen.UseVisualStyleBackColor = true;
+            this.buttonFaehreErzeugen.UseVisualStyleBackColor = false;
             this.buttonFaehreErzeugen.Click += new System.EventHandler(this.buttonFaehreErzeugen_Click);
             // 
             // textBoxFaehreLaenge
